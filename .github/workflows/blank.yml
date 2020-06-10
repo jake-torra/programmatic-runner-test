@@ -14,7 +14,7 @@ jobs:
 
     steps:
     - id: runner
-      run: echo "::set-output name=runner::mac-os-latest"
+      run: echo "::set-output name=runner::macos-latest"
 
   test:
     needs: [build]
